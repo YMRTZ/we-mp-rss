@@ -12,8 +12,8 @@ COPY requirements.txt .
 # 安装系统依赖
 WORKDIR /app
 # 复制后端代码
-COPY ./config.example.yaml  ./config.yaml
-COPY . .
+ADD ./config.example.yaml  ./config.yaml
+ADD  . .
 RUN chmod +x start.sh
 # 暴露端口
 EXPOSE 8001
