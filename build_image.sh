@@ -1,0 +1,1 @@
+docker build -t we-mp-rss-mod:1.1 .

@@ -1,0 +1,1 @@
+docker run -d  --name we-mp-rss-mod  -p 8001:8001 -v ./data:/app/data  we-mp-rss-mod:1.0

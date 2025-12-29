@@ -1,8 +1,8 @@
 
 FROM  --platform=$BUILDPLATFORM ghcr.io/rachelos/base-full:latest as werss-base
 #
-
-ENV PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
+ENV PIP_INDEX_URL=https://pypi.org/simple
+# ENV PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
 # ENV PIP_INDEX_URL=https://mirrors.huaweicloud.com/repository/pypi/simple
 
 # 复制Python依赖文件
